@@ -1,0 +1,205 @@
+Q1. What is three layers in a system or web application?
+Ans:-1.Presentation layer/ UI layer--> responsible for user interaction.Differet Presentation layer technologies like- HTML,CSS and Javascript.
+     2.Application Layer--here data is processed.
+     3.Data layer- here data is stored.
+-----------------------------------------------------------------------------------------
+Q2. What is HTML?
+Ans- HTML stands for Hyper Text Markup Language, which is used to desing the basic structure of web pages. 
+     HTML element is defined by start tag, some content and end tag, Like <h1> This is heading </h1>.
+
+	* Hypertext/Hyperlink- refers to link that connects one web page to another.
+		-If we want to open our document on same window or tab then we can go with- <a href="" traget='_self'></a> -- Bydefault
+		-If we want to open our document on new window or tab then we can go with- <a href="" traget='_blank'></a>
+				* "href" attribute is used to specify the "link".
+				* "target" attribute is used to specify where do we want to open the "linked document ".
+				** some taget value- _self- for open document in same window.,
+						     _blank- for open document on new window,
+                                                     _parent- for open document in a parent frame.
+					             _top- for open document in full body window.
+
+	* Markup- markup consists of various tags and attributes that define the elements
+		  on a web page, such as headings, paragraphs, links, images
+-------------------------------------------------------------------------------------------
+Q3. what is difference between HTML elements and HTML tags.?
+Ans:-  HTML element is defined by start tag, some content and end tag, Like <h1> This is heading </h1>.
+       but just <h1> is starting tag and </h1> is ending tag.
+
+-------------------------------------------------------------------------------------------
+Q3. How many type of Elements/tages in HTML?
+Ans:- There are two types of elements in HTML-
+	1. Inline Elements-that takes the space as much as they are required, like-<button>, <span>, anchor(<a>),<img/> etc.
+		-<span>- is an inline element used to group and apply styles to a specific section of text
+
+	2. Block element- that start from new line- like- <div>,<h>,<p>,<header>,<footer>,<section>,<ol>,<ul>
+
+-------------------------------------------------------------------------------------------
+Q4. What is the 3 uses of HTML?
+Ans-: 1. To design the basic stucture of the web pages.
+      2. Embeding images and video.
+      3. Navigating the Internet etc.
+-------------------------------------------------------------------------------------------
+Q5. How many types of list in HTML?
+Ans:- There are three types of list in HTML-
+      	1. Ordered List- is preceded by number.
+      	2. Unodered List- is preceded by bullets.
+      	3. Definition list- it consists of a series of terms (<dt> - definition term) and
+			  their corresponding definitions(<dd> - definition description).
+-------------------------------------------------------------------------------------------
+Q6. How many heading tags in HTML?
+Ans: There are 6 heading tags h1 to h6
+	* h1- repersents heighest-level heading... used for main title/prominent heading of the web page
+	* h2 to h6- for section heading
+-------------------------------------------------------------------------------------------
+Q7. What is the purpose of form element in Html? name some elements of Form element.
+Ans:-The <form> element is a container that contain and handle various input elements. the form elements are-<label>,
+		<input>,<button>,<textarea>,<select>,<option> etc.
+	** new form elements are- <datalist>, <output>
+-------------------------------------------------------------------------------------------
+Q8. What is event in HTML?
+Ans:-Event is an action or occurrence against which user perform some specific operation on a web page.like
+	onclick,onsubmit,onchange,onkeypress,onkeyup,onkeydown ect.
+-------------------------------------------------------------------------------------------
+Q9.what is behavior of onclick event in html
+Ans:-When the onclick event occurs, the associated function or JavaScript code will execute.
+-------------------------------------------------------------------------------------------
+Q10. What is Semantic tags in HTML.
+Ans:-Semantic tags provide "meaning and structure" of content within a web page.
+	like- <header>,<footer>,<main>, <aside>,<section>,<nav> etc.
+
+** Semantic tag were introduced in HTML5. 
+** Note- Non-semantic--->Tells nothing about content like-<div> and <span>
+** Syntactic element--> syntax means "some rules" that is related to HTML.
+-------------------------------------------------------------------------------------------
+Q11. What is the difference between submit and button in HTML?
+Ans:- <submit>is not a valid tag in html,rather it is used as an attribute to button tag.
+	<button> is tag as well as attribute.
+ **Note- The input type submit will refresh/reload the page, while input type button will load the page without refresh.
+------------------------------------------------------------------------------------------
+Q11. What is the difference between id and class in HTML?
+Ans:- The Id attribute is used to uniquely identify the HTML elements.
+      whereas multiple HTML element can have same class value.
+	
+------------------------------------------------------------------------------------------
+Q14. What is formatting tag?
+     Generally formatting tag is used for better look and feel. some formatting tags are-
+     <b>,<i>,<em>,<sub>,<sup>,<big>,<small>,<mark>,<strong> etc.
+
+------------------------------------------------------------------------------------------
+Q15. What is the significance of head tag and body tag?
+Ans:- Head tag--> <head> tag is defined before body tag, and it contains metadata of web pages, 
+                  like- <link>,<style> and <script> etx are not visible on web page.
+      Body tag--> body tag defines the body of documemt.All the content whoch need to be displayed, should come inside body tag.
+
+------------------------------------------------------------------------------------------
+Q16.How DOM is rendered by the browser?
+Ans:-When a web page is loaded, the browser first reads the HTML text and constructs DOM Tree from it. 
+     Then it processes the CSS and constructs the CSSOM Tree from it. After these trees are constructed, then it constructs the Render-Tree from it
+
+------------------------------------------------------------------------------------------
+Q16.How we create nested browser in HTML?
+Ans:- We can cfeate a nested browser in HTML using <iframe/> tag.
+like- <iframe src="" />
+------------------------------------------------------------------------------------------
+Q16.what are form attribute and what they do?
+Ans:- action: The action attribute specifies the 'URL' to which the form data is sent 
+      when the form is submitted.
+	method: The method attribute specifies how the form data is sent to the server.
+	        It can be either "get" or "post." 
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+			*******CSS******
+Q1. What is CSS?
+Ans:- CSS stands for Casecading Style Sheet, which is used for styling the web pages.
+---------------------------------------------------------------------------------------------
+Q2.What is inline CSS?
+Ans:- when we provide styling direct to the element, called inline CSS
+
+like  <h1 style="color: red; font-size: 24px;">Hello, World!</h1>
+      <p style="background-color: yellow; padding: 10px;"></p>
+---------------------------------------------------------------------------------------------
+Q2.What is internal CSS?
+Ans:- when we provide styling in <head> tag of the document, called internal styling.
+
+like  <head>
+  	<title>Internal CSS Example</title>
+  	<style>
+    		body {
+      			font-family: Arial, sans-serif;
+      			background-color: #f0f0f0;
+    		     }
+
+    		h1 {
+      			color: #333;
+      			text-align: center;
+    		}
+    </head>
+---------------------------------------------------------------------------------------------
+Q2.What is external CSS? it is considered to be the most efficient and fastest option
+Ans:- when we provide styling by making a seperate file and link it inside <head> tag, called external CSS.
+	<head>
+  		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+like  .body{
+		background-color:red;
+	}
+---------------------------------------------------------------------------------------------
+Q3. Why external CSS is more efficient and fastest.
+	1. in general term if need to apply same styling on different documents then we can go with External CSS.
+Ans:-   2. but technically the created CSS file can be cached by the browser. 
+           Once the CSS file is downloaded and cached, subsequent page rendering time will be reduced.
+      
+---------------------------------------------------------------------------------------------
+Q4. What is the diffence between id and class selector.
+Ans:-
+	**Id selector- 
+		1. it is used to uniquely identify the elements on a web page.  like specific heading.
+		2. it is denoted by # selector.
+
+	**Class selector- 
+		1. it is used to group element and apply style etc. like all paragrapgh.
+		2. it is denoted by . selector.
+---------------------------------------------------------------------------------------------
+Q4. What is flex box properties in CSS.
+Ans:- flexbox means- flexible box layout. it is designed to distribute the spaces along a single
+	  direction either horizontally or vertically.
+	display: flex or inline-flex
+	flex-direction: 
+	align-items:
+	justify-content:
+	align-content:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

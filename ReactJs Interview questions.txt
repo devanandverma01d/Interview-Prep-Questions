@@ -1,0 +1,46 @@
+									****React Interview questios****
+					=			===================================================								
+
+
+					
+Q1.What is React?
+Q2.How does React Works?
+Q2.What makes makes much faster?
+Q3.What is Virtual DOM?
+Q4.What is Reconciliation
+Q5.What is JSX?
+Q6.What is the current Version of React,react-router-dom, and create-react-app?
+Q7.Which popular websites are built in React Js?
+Q8.Why should we use React?
+Q9.What is Babel?
+Q10.What is ESLINT?
+Q11.What is the purpose of node modules in React JS?
+Q12.What is package.json file and package-lock.json?
+Q13.Could we use "conditional-if statement " inside JSX? if not why?
+Q14.What is difference between .jsx and .js file?
+Q15.What is the smallest building block in React?
+Q16.What is component?
+Q17.Types of Components?
+Q18.What is Functional component?
+Q19.What is class component?
+Q20.What is Higher Order component (HOC)?
+Q21.why function component is better than class component?
+Q22.What is the difference between Functional and Class Components?
+Q23.What is Props in React?/ How to pass data from parent to it's child component?
+Q24.What is "state" in React?
+Q25.What is the difference between state and props?
+Q26.What is Event and Eventhandling?
+Q27.What is Context API?
+Q28.Define Redux in short.
+Q29.What is pure function in javascript, describe with an example, and where it is generally applied?
+Q30.What is Hooks?
+Q31.What is useState Hook?
+Q32.What is useEffect Hook?
+Q33.What is useContext Hook?
+Q34.What is useReducer Hook?
+Q35.What is useMemo Hook?
+Q36.What is useCallback Hook?
+Q37.What is useRef Hook?
+Q38.What is State lifting Up?
+Q39.What is the difference between Controllled and Uncontrolled components?
+Q40.What is Redux, Redux Toolkit, Redux Thunk and Redux Saga?

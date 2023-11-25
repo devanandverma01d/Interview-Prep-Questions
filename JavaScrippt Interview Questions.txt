@@ -1,0 +1,41 @@
+Q1. What is JavaScript?
+Q2. Why we use JavaScript>
+Q3. What is Latest Version of JS?
+Q4. What is the difference between scripting language and Programming Language?
+Q5. What is the difference between Interpreter and Compiler?
+Q6. What is the difference  between Primitive and Non-Primitive datatype?
+
+Q7. What is variable?
+Q8. What is function?
+Q9. What is Anonymous functions?
+Q10.What is callback fucntion?
+Q11.What is Higher order function?
+Q12.What is Higher order Component?
+
+Q13.Define the arrays methods like- push,pop,shift,unshift,split,join,concat,slice,splice,
+    reverse,map,filter,find,forEach,sort,reduce,Set?
+Q14.What the difference between map and forEach method?
+Q15.What the difference between map and filter method?
+Q16.What the difference between filter and find method?
+Q17.What the difference between for and forEach loop?
+Q18.What the difference between for-in and for-of loop?
+
+Q19.What is event loop,How does it works,explain through an example?
+Q20.What is debouncing and throttling and why we use it, explain through an example?
+Q21.What is Curring in JavaScript?
+Q22.What the difference between setTimeout and setInterval?
+Q23.What is call,bind and apply method in Js,explain with example?
+Q24.What is Closure, explain with an example?
+Q25.What is the difference between var?
+Q26.What is Hoisting,Explain with example?
+Q27.What is destructuring, Spread Operator and Rest Parameter?
+Q28.What is the difference  between shallow copy and deep copy?
+
+Q29.what is callback hell and Callback queue?
+Q30.What the difference between localStorage Session Storage, Cookies?
+Q31.Difference  between Client Side Rendering(CSR) and Server Side rendering?
+
+
+
+
+
